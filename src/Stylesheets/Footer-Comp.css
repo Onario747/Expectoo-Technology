@@ -1,6 +1,7 @@
 .FooterComp-container {
   text-align: center;
   background: #00306A;
+  width: 100%;
 }
 .FooterComp-container p {
   color: #FFF;

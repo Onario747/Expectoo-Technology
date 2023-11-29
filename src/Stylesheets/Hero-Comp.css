@@ -1,19 +1,23 @@
 .HeroComp_container {
   min-height: 685px;
-  width: 100%;
   background: url('../Images/Rectangle 57.png');
   height: 615px;
   background-size: cover;
+  width: 100%;
   background-repeat: no-repeat;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .hero-flex-side {
   padding-top: 5rem;
-  padding-left: 4rem;
-  padding-right: 4rem;
+
   display: flex;
-  align-items: center;
+  max-width: 90rem;
   width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
   gap: 4rem;
 }
 
@@ -210,7 +214,7 @@
 
 
 
-@media screen and (min-width: 1534px) {
+/* @media screen and (min-width: 1534px) {
 
   .head-img-2 {
     width: 20em;
@@ -233,7 +237,7 @@
     width: 12rem;
     transform: rotate(-1.855deg);
   }
-}
+} */
 
 @media screen and (max-width: 1209px) {
   .hero-flex-side{

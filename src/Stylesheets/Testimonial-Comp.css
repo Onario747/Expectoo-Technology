@@ -1,14 +1,22 @@
 .TestimonialsComp-container{
   background: #06326b;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: fit-content;
+  padding-bottom: 3rem;
 }
 
 .testimonials-container {
+  width: 100%;
+  max-width: 90rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 2.5rem;
+  padding: 0 5rem;
 }
 
 .testimonial-header {

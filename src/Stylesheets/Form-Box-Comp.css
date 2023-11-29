@@ -1,3 +1,12 @@
+.FormBoxComp-container {
+  width: 100%;
+}
+
+.form-box-aligned-container {
+  width: 100%;
+  max-width: 90em;
+}
+
 .form-text-container {
   margin-top: 4rem;
 }
