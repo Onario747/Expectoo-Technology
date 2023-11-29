@@ -1,0 +1,23 @@
+.TypewiterAnimationComp-container {
+  width: 100%;
+  /* background: linear-gradient(to left, rgba(2, 38, 85, 0.815) 9.22%, rgba(3, 25, 53, 0.76) 92.49%), url('../Images/Maps.png'); */
+  background: linear-gradient(to left, rgba(20, 20, 20, 0.322) 9.22%, rgba(32, 32, 32, 0.61) 92.49%), url('../Images/pexels-pixabay-41949.jpg');
+  background-attachment: fixed;
+  min-height: 28em;
+  height: 20em;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.text-container {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 3.125rem;
+  text-align: center;
+  font-weight: 800;
+}
+
+

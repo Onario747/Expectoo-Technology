@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar-corner{
+  background: rgba(0, 0, 0, 0.5);
+}
+*::-webkit-scrollbar{
+  width: 10px;
+  height: 12px;   
+}
+*::-webkit-scrollbar-track{
+  background: #f6f6f6;
+}
+*::-webkit-scrollbar-thumb{
+  background-color: rgb(85, 83, 83);
+  border-radius: 20px;
+  border: 3px solid #f6f6f6;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+
+/* .app-container-aligned {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+} */

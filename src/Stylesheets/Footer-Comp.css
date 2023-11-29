@@ -1,0 +1,13 @@
+.FooterComp-container {
+  text-align: center;
+  background: #00306A;
+}
+.FooterComp-container p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 20px;
+}

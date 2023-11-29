@@ -1,0 +1,275 @@
+
+.ourTeamComp-container {
+  position: relative;
+  background-color: #021c3d;
+  overflow: hidden;
+  height: 52.8em;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  border-radius: 1.5rem;
+  background: rgba(217, 217, 217, 0.10);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.team-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 28rem;
+  margin-bottom: 20px;
+  z-index: 3;
+}
+
+.team-text p {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+  width: 30em;
+}
+
+.team-text span {
+  color: #EC268F;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.team-text h2 {
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.card-img {
+  width: 16em;
+  height: 20em;
+}
+
+.card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-top: 6px solid #FFF;
+}
+
+.team-name {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.56) 0%, rgba(255, 255, 255, 0.00) 253.1%);
+  padding: 5px;
+  color: #EC268F;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+.team-portfolio{
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  padding: 5px;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-box {
+  background: linear-gradient(92deg, #8A1653 12.28%, #EC268F 141.34%);
+  border-radius: 0.5rem;
+  z-index: 3;
+}
+
+.aligned-team-container {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: max-content;
+  margin: 0 auto;
+  padding: 8em 20px;
+}
+
+.line {
+  width: 50rem;
+  height: 10rem;
+  transform: rotate(45deg);
+  background-color: rgba(0, 38, 85, 0.795);
+  /* background-color: red; */
+  border-radius: 1.5rem;
+}
+
+.line_1 {
+  width: 60em;
+  transform: rotate(-45.941deg);
+  height: 10rem;
+  position: absolute;
+  top: 20em;
+  left: 10em;
+}
+
+.line_2 {
+  position: absolute;
+  top: 26.3em;
+  left: -19em;
+}
+
+.line_3 {
+  position: absolute;
+  top: 18em;
+  left: 47.8em;
+  transform: rotate(46deg);
+}
+
+@media screen and (max-width: 1209px) {
+  .card-img {
+    width: 14em;
+    height: 18em;
+  }
+
+  .team-text {
+    display: flex;
+    gap: 15rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media screen and (max-width: 1052px) {
+  .card-img {
+    width: 12em;
+    height: 15em;
+  }
+
+  .team-text {
+    display: flex;
+    gap: 8rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .team-name {
+    font-size: 1rem;
+  }
+  .team-portfolio{
+    color: #FFF;
+    font-size: 14px;
+  }
+
+  .team-text p {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 25em;
+  }
+
+}
+
+@media screen and (max-width: 958px) {
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    border-radius: 1.5rem;
+    background: rgba(217, 217, 217, 0.10);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .ourTeamComp-container {
+    height: fit-content;
+  }
+
+  .card-img {
+    width: 20em;
+    height: 23em;
+  }
+
+
+
+  .team-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2.7rem;
+  }
+}
+
+@media screen and (max-width: 881px) {
+  .card-img {
+    width: 15em;
+    height: 19em;
+  }
+
+  .team-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+
+  .card-img {
+    width: 20em;
+    height: 22em;
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    border-radius: 1.5rem;
+    background: rgba(217, 217, 217, 0.10);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card-img {
+    width: 15em;
+    height: 17em;
+  }
+
+  .team-text span {
+    font-size: 13px;
+  }
+
+  .team-text p {
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    width: 23em;
+  }
+
+  .aligned-team-container {
+    padding: 2em 0;
+  }
+
+}

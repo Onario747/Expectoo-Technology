@@ -1,0 +1,469 @@
+.form-text-container {
+  margin-top: 4rem;
+}
+
+.form-head-text h1 {
+  color: #991B5E;
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.form-head-text p {
+  color: rgba(0, 0, 0, 0.73);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 31.5em;
+}
+
+.pg-text {
+  display: flex;
+  margin-top: 30px;
+  gap: 20px;
+}
+
+.pg-txt h2 {
+  color: #8A1653;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.pg-txt p {
+  width: 18em;
+  color: rgba(0, 0, 0, 0.73);
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form-box-aligned-container {
+  /* padding-top: 3rem; */
+  width: fit-content;
+  display: flex;
+  /* align-items: center; */
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.form-box {
+  background: #002C62;
+  height: 100%;
+  width: 100%;
+  padding: 4rem 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-input-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  box-shadow: 10px 10px 4px 2px rgba(0, 0, 0, 0.05);
+  gap: 20px;
+}
+
+.form-input-container input {
+  border-radius: 0.5rem;
+  border: 1px solid #8A1653;
+  background: #FFF;
+  width: 15em;
+  padding-left: 10px;
+  height: 3em;
+  /* color: rgba(0, 0, 0, 0.25); */
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+}
+
+#project-select {
+  border-radius: 0.5rem;
+  border: 1px solid #8A1653;
+  background: #FFF;
+  height: 3em;
+  width: 15em;
+  padding-left: 10px;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  outline: none;
+}
+
+.label {
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.form-text-area-container textarea {
+  border-radius: 0.5rem;
+  border: 1px solid #8A1653;
+  background: #FFF;
+  width: 100%;
+}
+
+.submit-btn button{
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: linear-gradient(283deg, rgba(249, 91, 175, 0.70) 15.75%, rgba(255, 250, 253, 0.31) 140.23%);
+  backdrop-filter: blur(6px);
+  color: #FFF;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.875rem;
+  padding: 0.7rem 2.5rem;
+  cursor: pointer;
+}
+
+.pg-ico {
+  width: 4em;
+  height: 4em;
+}
+
+.pg-ico img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.pg_1, .pg_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1209px) {
+  .form-box-aligned-container {
+    padding:0 2rem;
+    margin: 0 auto;
+    gap: 0rem;
+  }
+
+  .form-input-container input {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    width: 14em;
+    padding-left: 10px;
+    height: 3em;
+    font-family: Montserrat;
+    font-size: 14px;
+  }
+
+  #project-select {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    height: 3em;
+    width: 15em;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+  }
+}
+
+@media screen and (max-width: 1052px) {
+  .pg-ico {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  #project-select {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    height: 3em;
+    width: 14em;
+    font-size: 12px;
+  }
+
+  .form-input-container input {
+    width: 14em;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  .label {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 13px;
+  }
+
+  .pg-txt p {
+    width: 18em;
+    font-size: 14px;
+  }
+
+  .form-head-text h1 {
+    color: #991B5E;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  
+  .form-head-text p {
+    color: rgba(0, 0, 0, 0.73);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 25em;
+  }
+  
+}
+
+@media screen and (max-width: 915px) {
+
+  .form-head-text p {
+    color: rgba(0, 0, 0, 0.73);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 25em;
+  }
+
+  .form-box-aligned-container {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 3rem;
+  }
+
+  .form-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .form-box-aligned-container {
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .form-input-container input {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    width: 25em;
+    padding-left: 10px;
+    height: 3em;
+    /* color: rgba(0, 0, 0, 0.25); */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+  }
+  
+  #project-select {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    height: 3em;
+    width: 25em;
+    padding-left: 10px;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    outline: none;
+  }
+  
+  .label {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5px;
+  }
+
+  .submit-btn button{
+    border-radius: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background: linear-gradient(283deg, rgba(249, 91, 175, 0.70) 15.75%, rgba(255, 250, 253, 0.31) 140.23%);
+    backdrop-filter: blur(6px);
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.875rem;
+    padding: 0.7rem 6rem;
+    cursor: pointer;
+
+  }
+
+  .submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  .form-input-container input {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    width: 20em;
+    font-size: 13px;
+  }
+
+  #project-select {
+    border-radius: 0.5rem;
+    border: 1px solid #8A1653;
+    background: #FFF;
+    height: 3em;
+    width: 25em;
+    padding-left: 10px;
+    font-family: Montserrat;
+    width: 20em;
+    font-size: 13px;
+  }
+
+  .form-text-area-container {
+    width: 65.4%;
+  }
+
+  .form-input-main {
+    margin: 0 auto;
+  }
+
+  .form-text-area-container {
+    margin: 0 auto;
+  }
+
+  .form-text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .pg_1, .pg_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(236, 93, 224, 0.801), rgba(252, 240, 253, 0.1));
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .pg-text {
+    gap: 20px;
+  }
+
+  .pg-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .form-head-text {
+    text-align: center;
+  }
+
+  .form-head-text p{
+    width: 40em;
+  }
+}
+
+@media screen and (max-width: 589px) {
+  .pg-text {
+    flex-direction: column;
+  }
+
+  .form-head-text p{
+    width: 35em;
+  }
+
+  .pg-txt p {
+    width: 25em;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+
+  .form-input-main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    box-shadow: 10px 10px 4px 2px rgba(0, 0, 0, 0.05);
+    gap: 20px;
+  }
+
+  .form-head-text p{
+    width: 30em;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .form-head-text p{
+    width: 30em;
+  }
+
+  .pg-txt p {
+    width: 100%;
+  }
+
+  .form-box-aligned-container {
+    margin: 0 25px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .form-box-aligned-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .form-text-container {
+    margin: 30px;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .form-head-text h1 {
+    font-size: 28px;
+  }
+
+  .form-head-text p{
+    font-size: 10px;
+  }
+}
+
