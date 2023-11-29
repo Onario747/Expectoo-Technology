@@ -27,7 +27,8 @@
   display: flex;
   align-items: center;
   gap: 30px;
-  margin-right: 3rem;
+  /* margin-right: 3rem; */
+  width: 100%;
   z-index: 1;
   transition: 0.3s ease-in-out;
   /* transform: translate(-100%); */
@@ -106,9 +107,9 @@
 
 
 @media screen and (min-width: 1534px) {
-  .nav-bar {
+  /* .nav-bar {
     margin-right: 6rem;
-  }
+  } */
 
 }
 
@@ -159,9 +160,11 @@
     width: 100%;
     background-color: #031935;
     transform: translateY(0);
+    width: 100vw;
   }
 
   .nav-bar.open {
+    width: 100vw;
     display: flex;
     transition: all .3s;
   }
@@ -181,8 +184,6 @@
   .logo {
     width: 95px;
     height: 43px;
-    flex-shrink: 0;
-    margin-left: 4rem;
   }
 
   .TopBarComp_container{

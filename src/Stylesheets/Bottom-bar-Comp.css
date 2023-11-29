@@ -203,4 +203,9 @@
     background: rgba(132, 0, 70, 0.719);
     filter: blur(239.54022216796875px);
   }
+
+  .BottomBarComp-container {
+    background: #031935;
+    padding: 2rem 0rem;
+  }
 }
