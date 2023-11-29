@@ -9,7 +9,7 @@ const FormBoxComp = () => {
       <div className="form-box-aligned-container">
         <div className="form-text-container">
           <div className="form-head-text">
-            <h1>Get A Free Quote</h1>
+            <h1>Customer Support</h1>
             <p>Seamlessly Tailored Solutions Await – Request Your Complimentary Quote Today and Let&apos;s Begin Crafting Your Vision into Reality!
             </p>
           </div>

@@ -1,5 +1,9 @@
 .FormBoxComp-container {
+  background: linear-gradient(to left, #00000069, #0000006c), url('../Images/pexels-mikhail-nilov-7682340 (1).jpg');
+  background-attachment: fixed;
+  min-height: 650px;
   width: 100%;
+  background-size: cover;
 }
 
 .form-box-aligned-container {
@@ -12,7 +16,7 @@
 }
 
 .form-head-text h1 {
-  color: #991B5E;
+  color: #e0b5cc;
   font-family: 'Inter', sans-serif;
   font-size: 2.5rem;
   font-style: normal;
@@ -21,12 +25,14 @@
 }
 
 .form-head-text p {
+  margin-top: 10px;
   color: rgba(0, 0, 0, 0.73);
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  color: #fff;
   width: 31.5em;
 }
 
@@ -37,7 +43,7 @@
 }
 
 .pg-txt h2 {
-  color: #8A1653;
+  color: #e0b5cc;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-style: normal;
@@ -47,7 +53,7 @@
 
 .pg-txt p {
   width: 18em;
-  color: rgba(0, 0, 0, 0.73);
+  color: rgba(240, 239, 239, 0.73);
   font-family: Montserrat;
   font-size: 1rem;
   font-style: normal;
