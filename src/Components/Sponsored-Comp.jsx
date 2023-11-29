@@ -4,7 +4,7 @@ import '../Stylesheets/Sponsored-Comp.css'
 import clishaImg from '../Images/image 15.png'
 import gImg from '../Images/image 18.png'
 import vendoImg from '../Images/vendo.png'
-import synologyImg from '../Images/synology.png'
+import synologyImg from "../Images/Synology.png"
 import intwinImg from '../Images/image 17.png'
 
 const SponsoredComp = () => {
