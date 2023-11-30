@@ -56,7 +56,7 @@ function App() {
         <BottomBarComp />
         <FooterComp />
       </div>
-      <BackToTop />
+      <BackToTop targetId='navbar' />
       <div className="loader">
         <img src={expectooLogo} alt="Loading" className="loader-image" />
       </div>

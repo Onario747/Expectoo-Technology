@@ -1,0 +1,21 @@
+.back-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #002459;
+  color: #fff;
+  padding: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  border: 0.5px solid #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+
+
+.back-to-top-button.visible {
+  opacity: 1;
+}

@@ -13,7 +13,7 @@ const TopBarComp = () => {
   };
   return (
     <div className={`TopBarComp_container ${isNavOpen ? 'nav-open' : ''}`}>
-      <div className="top-bar">
+      <div className="top-bar" id='top-bar'>
         <div className="logo">
           <img src={expectooLogo} alt="Expectoo Logo" />
         </div>
@@ -38,7 +38,7 @@ const TopBarComp = () => {
           <div className="quote-btn">
             <button>Get Our Quote</button>
           </div>
-          <div className={`hamburger-menu ${isNavOpen ? 'open' : ''}`} onClick={toggleNav}>
+          <div className={`hamburger-menu ${isNavOpen ? 'icon-fixed' : ''}`} onClick={toggleNav}>
             <div className="bar"></div>
             <div className="bar"></div>
             <div className="bar"></div>

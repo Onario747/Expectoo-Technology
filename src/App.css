@@ -29,10 +29,9 @@ html, body {
   overflow-x: hidden;
 }
 
-
-/* .app-container-aligned {
-  padding: 0 3rem;
-} */
+.fixed-comp {
+  width: 100%;
+}
 
 .app-container-aligned {
   width: 100%;
