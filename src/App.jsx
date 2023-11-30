@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 import TopBarComp from './Components/Top-bar-Comp'
 import HeroComp from './Components/Hero-Comp'
 import SponsoredComp from './Components/Sponsored-Comp'
