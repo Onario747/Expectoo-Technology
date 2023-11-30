@@ -25,10 +25,13 @@ function App() {
       document.body.removeChild(loader);
     };
 
-    loader.classList.add('loader-hidden');
-    loader.addEventListener('transitionend', handleTransitionEnd);
 
-    const timeoutId = setTimeout(hideLoader, 2000);
+    const hideLoader = () => {
+      loader.classList.add('loader-hidden');
+      loader.addEventListener('transitionend', handleTransitionEnd);
+    };
+
+    const timeoutId = setTimeout(hideLoader, 3000);
 
     return () => {
       clearTimeout(timeoutId);
