@@ -13,32 +13,32 @@ import BottomBarComp from './Components/Bottom-bar-Comp'
 import FooterComp from './Components/Footer-Comp'
 import BackToTop from './Components/Back-To-Top'
 
-import expectooLogo from './Images/expectoo logo white png.png'
+// import expectooLogo from './Images/expectoo logo white png.png'
 
 import './App.css'
 
 function App() {
 
-  useEffect(() => {
-    const loader = document.querySelector('.loader');
+  // useEffect(() => {
+  //   const loader = document.querySelector('.loader');
 
-    const handleTransitionEnd = () => {
-      document.body.removeChild(loader);
-    };
+  //   const handleTransitionEnd = () => {
+  //     document.body.removeChild(loader);
+  //   };
 
 
-    const hideLoader = () => {
-      loader.classList.add('loader-hidden');
-      loader.addEventListener('transitionend', handleTransitionEnd);
-    };
+  //   const hideLoader = () => {
+  //     loader.classList.add('loader-hidden');
+  //     loader.addEventListener('transitionend', handleTransitionEnd);
+  //   };
 
-    const timeoutId = setTimeout(hideLoader, 3000);
+  //   const timeoutId = setTimeout(hideLoader, 3000);
 
-    return () => {
-      clearTimeout(timeoutId);
-      loader.removeEventListener('transitionend', handleTransitionEnd);
-    };
-  }, []);
+  //   return () => {
+  //     clearTimeout(timeoutId);
+  //     loader.removeEventListener('transitionend', handleTransitionEnd);
+  //   };
+  // }, []);
 
   return (
     <div className='App-container'>
@@ -57,9 +57,9 @@ function App() {
         <FooterComp />
       </div>
       <BackToTop targetId='navbar' />
-      <div className="loader">
+      {/* <div className="loader">
         <img src={expectooLogo} alt="Loading" className="loader-image" />
-      </div>
+      </div> */}
     </div>
   )
 }

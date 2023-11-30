@@ -41,7 +41,22 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+  opacity: 0;
+  animation: HeadTxtfadeIn 1.5s ease-in-out forwards;
 }
+
+@keyframes HeadTxtfadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 
 .head-text span {
   color: #EC268F;
@@ -53,10 +68,36 @@
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin-top: 23px;
+  opacity: 0;
+  animation: HeadParagraphfadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes HeadParagraphfadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .head-btn {
   margin-top: 23px;
+  opacity: 0;
+  animation: HeadBtnfadeIn 1.5s ease-in-out forwards;
+}
+
+@keyframes HeadBtnfadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .head-btn button {
@@ -76,6 +117,8 @@
   align-items: center;
   /* gap: 20px; */
 }
+
+
 
 .arrow_1 {
   position: absolute;
@@ -126,6 +169,8 @@
   width: 16em;
   height: 28em;
   z-index: 100;
+  opacity: 0;
+  animation: HeadParagraphfadeIn 1.5s ease-in-out forwards;
 }
 
 .head-img-1 img {
@@ -138,6 +183,7 @@
   width: 16em;
   height: 16em;
   z-index: 1;
+  animation: HeadParagraphfadeIn 1.5s ease-in-out forwards;
 }
 
 .head-img-2 img {
@@ -157,7 +203,22 @@
   align-items: center;
   justify-content: space-around;
   margin-left: 29px;
+  opacity: 0;
+  transform: scale(0.5);
+  animation: StyledRec-1Animation 1.5s ease-in-out forwards;
 }
+
+@keyframes StyledRec-1Animation {
+  from {
+    opacity: 0;
+    transform: scale(0.5); /* Start from 50% size */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1); /* Scale to 100% size */
+  }
+}
+
 .styled-rectangle-2 {
   border-radius: 8px;
   border: 1px solid rgba(255, 255, 255, 0.30);
@@ -173,6 +234,9 @@
   width: 240px;
   height: 70px;
   padding: 10px;
+  opacity: 0;
+  transform: scale(0.5);
+  animation: StyledRec-1Animation 1.5s ease-in-out forwards;
 }
 
 .rec-sm-icon img {
