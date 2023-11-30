@@ -213,36 +213,13 @@
 
 
 
-
-/* @media screen and (min-width: 1534px) {
-
-  .head-img-2 {
-    width: 20em;
-    height: 20em;
-  }
-
-  .head-text {
-    width: 20em;
-    font-size: 30px;
-  }
-  .head-img-1 {
-    width: 19em;
-    height: 29.46em;
-  }
-
-  .arrow_2 {
-    position: absolute;
-    right: -2.5rem;
-    bottom: 18rem;
-    width: 12rem;
-    transform: rotate(-1.855deg);
-  }
-} */
-
 @media screen and (max-width: 1209px) {
   .hero-flex-side{
-    padding-left: 2.5rem;
     gap: 0rem;
+  }
+
+  .HeroComp_container {
+    padding:0 1.5rem;
   }
 
   .head-text {
@@ -269,11 +246,9 @@
 
   .hero-flex-side {
     padding-top: 5rem;
-    /* padding-left: 4rem; */
     padding-right: 4rem;
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     width: 100%;
     gap: 4rem;
   }
