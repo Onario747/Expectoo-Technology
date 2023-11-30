@@ -13,6 +13,7 @@
 
 .form-text-container {
   margin-top: 4rem;
+  padding: 0 1.5rem;
 }
 
 .form-head-text h1 {
@@ -240,7 +241,7 @@
   }
   
   .form-head-text p {
-    color: rgba(0, 0, 0, 0.73);
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     font-style: normal;

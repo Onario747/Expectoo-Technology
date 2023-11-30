@@ -11,6 +11,7 @@ import OurTeamComp from './Components/Our-Team-Comp'
 import FormBoxComp from './Components/Form-Box-Comp'
 import BottomBarComp from './Components/Bottom-bar-Comp'
 import FooterComp from './Components/Footer-Comp'
+import BackToTop from './Components/Back-To-Top'
 
 import expectooLogo from './Images/expectoo logo white png.png'
 
@@ -55,7 +56,7 @@ function App() {
         <BottomBarComp />
         <FooterComp />
       </div>
-
+      <BackToTop />
       <div className="loader">
         <img src={expectooLogo} alt="Loading" className="loader-image" />
       </div>
