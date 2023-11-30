@@ -195,7 +195,7 @@
 @media screen and (max-width: 400px) {
 
   .testimonials-container {
-    padding: 0 4px;
+    padding: 0 1.5rem;
   }
 
   .profile-name {

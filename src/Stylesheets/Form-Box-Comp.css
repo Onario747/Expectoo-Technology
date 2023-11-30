@@ -13,7 +13,6 @@
 
 .form-text-container {
   margin-top: 4rem;
-  padding: 0 1.5rem;
 }
 
 .form-head-text h1 {
@@ -63,10 +62,8 @@
 }
 
 .form-box-aligned-container {
-  /* padding-top: 3rem; */
   width: fit-content;
   display: flex;
-  /* align-items: center; */
   margin: 0 auto;
   gap: 3rem;
 }
@@ -255,7 +252,7 @@
 @media screen and (max-width: 915px) {
 
   .form-head-text p {
-    color: rgba(0, 0, 0, 0.73);
+    color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-style: normal;
@@ -418,7 +415,7 @@
   }
 }
 
-@media screen and (max-width: 589px) {
+@media screen and (max-width: 628px) {
   .pg-text {
     flex-direction: column;
   }
@@ -469,7 +466,26 @@
   }
 
   .form-text-container {
-    margin: 30px;
+    margin: 39px;
+  }
+
+  .form-head-text h1 {
+    font-size: 34px;
+  }
+
+  .form-head-text p {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .pg-txt p {
+    width: 90%;
+  }
+
+  .pg_1, .pg_2 {
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 80%;
   }
 }
 
