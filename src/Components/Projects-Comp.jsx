@@ -61,7 +61,7 @@ const ProjectsComp = () => {
   };
 
   return (
-    <div className='ProjectsComp-container'>
+    <div className='ProjectsComp-container' id='projects'>
       <div className="projects-main-container">
         <h1 className='project-head-txt'>Projects:</h1>
         <div className="project-container">

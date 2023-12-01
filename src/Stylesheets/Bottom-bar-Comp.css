@@ -73,13 +73,22 @@
   z-index: 2;
 }
 
-.quick-links-sec a{
+.quick-link{
   color: #FFF;
   font-family: 'Inter', sans-serif;
   line-height: normal;
   text-decoration: none;
   font-size: 12px;
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
 }
+
+.quick-link:hover {
+  color: #eccdb8;
+  text-shadow: 0 0 5px rgba(255, 0, 200, 0.8); 
+}
+
+
 
 .contact-sec {
   display: flex;

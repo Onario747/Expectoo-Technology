@@ -11,7 +11,7 @@ import '../Stylesheets/Our-Team.css'
 const ourTeamComp = () => {
   return (
     <div className="ourTeamComp-container">
-      <div className="aligned-team-container">
+      <div className="aligned-team-container" id='team'>
         <div className="team-text">
           <h2>Our Team</h2>
           <p><span>Meet the Minds Behind the Innovation:</span>Our Exceptional Team Pioneering Tech Solutions</p>

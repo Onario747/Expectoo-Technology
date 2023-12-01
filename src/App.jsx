@@ -46,10 +46,10 @@ function App() {
         <TopBarComp />
         <HeroComp />
         <SponsoredComp />
-        <ServicesComp />
+        <ServicesComp name="servicesComp"/>
         <TypewiterAnimationComp />
-        <ProjectsComp />
-        <TestimonialsComp />
+        <ProjectsComp name="projectsComp"/>
+        <TestimonialsComp name="testimonialsComp"/>
         <MissionComp />
         <OurTeamComp />
         <FormBoxComp />

@@ -9,7 +9,7 @@ import box6Ico from '../Images/Code.png'
 
 const ServicesComp = () => {
   return (
-    <div className='ServicesComp-container'>
+    <div className='ServicesComp-container' id='services'>
       <div className="services-container">
         <div className="services-top-txt">
           <div className="services-header">

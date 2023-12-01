@@ -3,6 +3,7 @@ import '../Stylesheets/Bottom-bar-Comp.css'
 import expectooLogo from '../Images/expectoo logo white png.png'
 
 import { FaInstagram, FaFacebook, FaLinkedin, FaPhone } from "react-icons/fa";
+import { Link } from 'react-scroll';
 import { IoIosMail } from "react-icons/io";
 
 const BottomBarComp = () => {
@@ -48,11 +49,11 @@ const BottomBarComp = () => {
 
         <div className="quick-links-sec">
           <h1 className="footer-head">Quick Links</h1>
-          <a href="/">About Us</a>
-          <a href="/">Our Services</a>
-          <a href="/">Projects</a>
-          <a href="/">Testimonials</a>
-          <a href="/">Team</a>
+          <Link to='mission' spy="true" smooth={true} offset={50} duration={500} className='quick-link'>About Us</Link>
+          <Link to='services' spy="true" smooth={true} offset={50} duration={500} className='quick-link'>Our Services</Link>
+          <Link to='projects' spy="true" smooth={true} offset={50} duration={500} className='quick-link'>Projects</Link>
+          <Link to='testimonials' spy="true" smooth={true} offset={50} duration={500} className='quick-link'>Testimonials</Link>
+          <Link to='team' spy="true" smooth={true} offset={50} duration={500} className='quick-link'>Teams</Link>
         </div>
       </div>
     </div>

@@ -5,7 +5,7 @@ import timeIco from '../Images/Subtract (7).png'
 
 const FormBoxComp = () => {
   return (
-    <div className='FormBoxComp-container'>
+    <div className='FormBoxComp-container' id='formbox'>
       <div className="form-box-aligned-container">
         <div className="form-text-container">
           <div className="form-head-text">

@@ -119,6 +119,7 @@
   background: linear-gradient(to bottom left, rgba(236, 38, 143, 1), rgba(252, 240, 253, 0.1));
   border-radius: 50px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   cursor: pointer;
@@ -127,6 +128,7 @@
   color: #FFF;
   transition: all .3s ease-in-out;
   font-weight: bold;
+  z-index: 300;
 }
 
 .circle-1:hover {

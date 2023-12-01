@@ -4,7 +4,7 @@ import profileImg_1 from '../Images/Ellipse 81.png'
 
 const TestimonialsComp = () => {
   return (
-    <div className="TestimonialsComp-container">
+    <div className="TestimonialsComp-container" id='testimonials'>
       <h2 className="testimonial-header">Testimonials</h2>
       <div className="testimonials-container">
         <div className="testimonial-box">

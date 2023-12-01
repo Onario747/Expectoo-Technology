@@ -26,7 +26,7 @@
   gap: 30px;
   /* margin-right: 3rem; */
   z-index: 1;
-  transition: 0.3s ease-in-out;
+  transition: 0.1s ease-in-out;
   /* transform: translate(-100%); */
 }
 
@@ -36,6 +36,13 @@
   font-family: "Montserrat", sans-serif;
   font-size: 13.695px;
   line-height: normal;
+  cursor: pointer;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #eccdb8;
+  text-shadow: 0 0 5px rgba(255, 0, 200, 0.8); 
 }
 
 .logo {
