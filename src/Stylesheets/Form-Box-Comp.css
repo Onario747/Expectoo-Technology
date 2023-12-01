@@ -1,5 +1,5 @@
 .FormBoxComp-container {
-  background: linear-gradient(to left, #00000069, #0000006c), url('../Images/pexels-mikhail-nilov-7682340 (1).jpg');
+  background: linear-gradient(to left, #000000a2, #000000ab), url('../Images/pexels-mikhail-nilov-7682340 (1).jpg');
   background-attachment: fixed;
   min-height: 650px;
   width: 100%;
@@ -73,6 +73,7 @@
   height: 100%;
   width: 100%;
   padding: 4rem 20px;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -286,7 +287,7 @@
     border-radius: 0.5rem;
     border: 1px solid #8A1653;
     background: #FFF;
-    width: 25em;
+    width: 100%;
     padding-left: 10px;
     height: 3em;
     /* color: rgba(0, 0, 0, 0.25); */
@@ -303,7 +304,7 @@
     border: 1px solid #8A1653;
     background: #FFF;
     height: 3em;
-    width: 25em;
+    width: 100%;
     padding-left: 10px;
     font-family: Montserrat;
     font-size: 1rem;
@@ -348,7 +349,7 @@
     border-radius: 0.5rem;
     border: 1px solid #8A1653;
     background: #FFF;
-    width: 20em;
+    width: 100%;
     font-size: 13px;
   }
 
@@ -357,7 +358,7 @@
     border: 1px solid #8A1653;
     background: #FFF;
     height: 3em;
-    width: 25em;
+    width: 100%;
     padding-left: 10px;
     font-family: Montserrat;
     width: 20em;
@@ -365,7 +366,7 @@
   }
 
   .form-text-area-container {
-    width: 65.4%;
+    width: 77%;
   }
 
   .form-input-main {
