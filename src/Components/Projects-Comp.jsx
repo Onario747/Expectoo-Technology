@@ -60,6 +60,7 @@ const ProjectsComp = () => {
     toggleAnimationClasses();
   };
 
+
   return (
     <div className='ProjectsComp-container' id='projects'>
       <div className="projects-main-container">
@@ -75,10 +76,9 @@ const ProjectsComp = () => {
             {projectData.map((project, index) => (
             <div
               key={index}
-              className={`circle-${index + 1} ${activeIndex === index + 1 ? 'active-index-num' : ''}`}
+              className={`circle-${index + 1} ${activeIndex === index + 1 ? 'active-index' : ''}`}
               onClick={() => handleButtonClick(index + 1)}
             >
-              {index + 1}
             </div>
           ))}
             </div>

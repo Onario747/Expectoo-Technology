@@ -114,9 +114,9 @@
 }
 
 .circle-1, .circle-2, .circle-3, .circle-4, .circle-5 {
-  height: 3rem;
-  width: 3rem;
-  background: linear-gradient(to bottom left, rgba(236, 38, 143, 1), rgba(252, 240, 253, 0.1));
+  height: 1.4rem;
+  width: 1.4rem;
+  background: linear-gradient(to bottom left, rgb(224, 221, 223), rgba(252, 240, 253, 0.1));
   border-radius: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -148,8 +148,8 @@
   color: #000;
 }
 
-.active-index-num {
-  color: #000;
+.active-index {
+  background: linear-gradient(to bottom left, rgba(236, 38, 143, 1), rgba(252, 240, 253, 0.1));
 }
 
 .project-img {
@@ -183,7 +183,7 @@
 }
 
 .lane-shape {
-  left: 33em;
+  left: 28.8em;
   transform: rotate(20deg);
   position: absolute;
   width: 4.5rem;
