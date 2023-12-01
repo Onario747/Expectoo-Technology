@@ -115,18 +115,20 @@
   margin-left: 3px;
 }
 
-.circle-1 {
-  height: 2rem;
-  width: 2rem;
+.circle-1, .circle-2 {
+  height: 3rem;
+  width: 3rem;
   background: linear-gradient(to bottom left, rgba(236, 38, 143, 1), rgba(252, 240, 253, 0.1));
   border-radius: 50px;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
-.circle-2 {
-  height: 2rem;
-  width: 2rem;
-  background: linear-gradient(rgba(247, 210, 251, 1), rgba(252, 240, 253, 0.1));
-  border-radius: 50px;
+
+.project-arrow {
+  color: #fff;
+  font-size: 35px;
 }
 
 .project-img {

@@ -3,6 +3,8 @@ import '../Stylesheets/Project-Comp.css'
 import projectImg1 from '../Images/mobile.png'
 import projectImg2 from '../Images/mobile (1).png'
 
+import { FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from "react-icons/fa";
+
 const ProjectsComp = () => {
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -75,8 +77,8 @@ const ProjectsComp = () => {
             </div>
             <div className="project-btn"><button>Get Our Quote</button></div>
             <div className="circle-segments">
-              <div className="circle-1" onClick={handlePrevClick}></div>
-              <div className="circle-2" onClick={handleNextClick}></div>
+              <div className="circle-1" onClick={handlePrevClick}><FaRegArrowAltCircleLeft className='project-arrow'/></div>
+              <div className="circle-2" onClick={handleNextClick}><FaRegArrowAltCircleRight className='project-arrow'/></div>
             </div>
           </div>
           <div className="project-img">
