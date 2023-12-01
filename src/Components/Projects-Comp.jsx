@@ -3,10 +3,8 @@ import '../Stylesheets/Project-Comp.css'
 import projectImg1 from '../Images/mobile.png'
 import projectImg2 from '../Images/mobile (1).png'
 
-import { FaRegArrowAltCircleLeft, FaRegArrowAltCircleRight } from "react-icons/fa";
-
 const ProjectsComp = () => {
-
+  const [activeIndex, setActiveIndex] = useState(1);
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const projectData = [
@@ -37,15 +35,6 @@ const ProjectsComp = () => {
     },
   ];
 
-  const handleNextClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % projectData.length);
-    toggleAnimationClasses();
-  };
-
-  const handlePrevClick = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + projectData.length) % projectData.length);
-    toggleAnimationClasses();
-  };
 
   const currentProject = projectData[currentIndex];
 
@@ -65,6 +54,12 @@ const ProjectsComp = () => {
     }, 1000);
   };
 
+  const handleButtonClick = (index) => {
+    setCurrentIndex(index - 1);
+    setActiveIndex(index);
+    toggleAnimationClasses();
+  };
+
   return (
     <div className='ProjectsComp-container'>
       <div className="projects-main-container">
@@ -77,8 +72,15 @@ const ProjectsComp = () => {
             </div>
             <div className="project-btn"><button>Get Our Quote</button></div>
             <div className="circle-segments">
-              <div className="circle-1" onClick={handlePrevClick}><FaRegArrowAltCircleLeft className='project-arrow'/></div>
-              <div className="circle-2" onClick={handleNextClick}><FaRegArrowAltCircleRight className='project-arrow'/></div>
+            {projectData.map((project, index) => (
+            <div
+              key={index}
+              className={`circle-${index + 1} ${activeIndex === index + 1 ? 'active-index-num' : ''}`}
+              onClick={() => handleButtonClick(index + 1)}
+            >
+              {index + 1}
+            </div>
+          ))}
             </div>
           </div>
           <div className="project-img">

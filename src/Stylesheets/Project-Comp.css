@@ -98,14 +98,12 @@
 }
 
 .project-btn button{
-  border-radius: 2rem;
+  color: #fff;
+  padding: 16px 40px;
+  border-radius: 32px;
   border: 1px solid rgba(255, 255, 255, 0.30);
   background: linear-gradient(283deg, rgba(249, 91, 175, 0.70) 15.75%, rgba(255, 250, 253, 0.31) 140.23%);
   backdrop-filter: blur(6px);
-  padding: 10px 15px;
-  color: #FFF;
-  font-family: 'telex', sans-serif;
-  font-size: 0.875rem;
   cursor: pointer;
 }
 
@@ -115,7 +113,7 @@
   margin-left: 3px;
 }
 
-.circle-1, .circle-2 {
+.circle-1, .circle-2, .circle-3, .circle-4, .circle-5 {
   height: 3rem;
   width: 3rem;
   background: linear-gradient(to bottom left, rgba(236, 38, 143, 1), rgba(252, 240, 253, 0.1));
@@ -124,11 +122,32 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-family: 'montserrat', sans-serif;
+  font-size: 20px;
+  color: #FFF;
+  transition: all .3s ease-in-out;
+  font-weight: bold;
 }
 
-.project-arrow {
-  color: #fff;
-  font-size: 35px;
+.circle-1:hover {
+  color: #000;
+}
+
+.circle-2:hover {
+  color: #000;
+}
+.circle-3:hover {
+  color: #000;
+}
+.circle-4:hover {
+  color: #000;
+}
+.circle-5:hover {
+  color: #000;
+}
+
+.active-index-num {
+  color: #000;
 }
 
 .project-img {
